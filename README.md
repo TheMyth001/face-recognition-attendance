@@ -12,9 +12,9 @@
 - `output` : model weights are stored here after training (not included in the git repo)
 
 ## DEPENDENCIES
-- opencv-python`
+- `opencv-python`
 - `pytorch`
-- `facenet_pytorch
+- `facenet_pytorch`
 - `torchvision`
 - `transformers`
 - `sklearn`
