@@ -88,7 +88,7 @@ def add_attendance():
         else:
             face_tensor = torch.from_numpy(face)
             face_tensor = torch.permute(face_tensor, (2, 0, 1))
-            face_tensor = face_tensor.reshape(1, 3, 160, 160)
+            face_tensor = face_tensor.reshape(1, 3, 224, 224)
             embeddings = pretrained_model(face_tensor.float())
             student, confidence = inference(my_model, embeddings)
             if confidence >= 0.95:
