@@ -1,24 +1,24 @@
 # FACE RECOGNITION BASED ATTENDANCE SYSTEM
 
 ## INCLUDED FILE AND DIRECTORIES 
-- app.py : the main user-interface for the project
-- model.py : it contains the architecture of our model and hyperparameters
-- add_students.py : the code for adding new students' data to the attendance system
-- attendance.py : the code for marking attendance of students
-- train_model.py : code for retraining the model whenever a new student is added
-- student_list.json : json file with the data of the students
-- attendance.csv : csv file where all the attendance is marked
-- students : directory where student images are stored (not included in the git repo)
-- output : model weights are stored here after training (not included in the git repo)
+- `app.py` : the main user-interface for the project
+- `model.py` : it contains the architecture of our model and hyperparameters
+- `add_students.py` : the code for adding new students' data to the attendance system
+- `attendance.py` : the code for marking attendance of students
+- `train_model.py` : code for retraining the model whenever a new student is added
+- `student_list.json` : json file with the data of the students
+- `attendance.csv` : csv file where all the attendance is marked
+- `students` : directory where student images are stored (not included in the git repo)
+- `output` : model weights are stored here after training (not included in the git repo)
 
 ## DEPENDENCIES
-- opencv-python
-- pytorch
-- facenet_pytorch
-- torchvision
-- transformers
-- sklearn
-- numpy
+- opencv-python`
+- `pytorch`
+- `facenet_pytorch
+- `torchvision`
+- `transformers`
+- `sklearn`
+- `numpy`
 
 ## HOW TO USE
 - download the repo, add an (empty) folder named `students` at the project location
